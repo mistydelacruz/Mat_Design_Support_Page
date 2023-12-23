@@ -1,3 +1,11 @@
+/***************************************
+* Created by: Misty Dela Cruz
+* Created on: 12/22/2023
+* Last Modified: 12/22/2023
+* Updates:
+* Customizing the color theme to match the Figma prototype.
+***************************************/
+
 import { createTheme } from '@mui/material/styles';
 import { blue } from '@mui/material/colors';
 
