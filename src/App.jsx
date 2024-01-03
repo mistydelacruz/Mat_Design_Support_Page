@@ -1,11 +1,10 @@
 /***************************************
 * Created by: Misty Dela Cruz
 * Created on: 12/22/2023
-* Last Modified: 12/22/2023
+* Last Modified: 1/2/2024
 * Updates:
-* Added the Buttons components from the Material UI.
-* Working on customizing each component to match my Figma prototype.
-* Will add different files for each component for better readability.
+* App Bar is done
+* Will continue to create the Form and its features
 ***************************************/
 
 import { useState } from 'react'
@@ -16,9 +15,10 @@ import * as React from 'react';
 import Button from '@mui/material/Button';
 import './theme'
 import { deepOrange, deepPurple } from '@mui/material/colors';
-import './AppTabs'
+import './AppBar'
 import { Tab } from '@mui/material';
-import ColorTabs from './AppTabs';
+import DrawerAppBar from './AppBar';
+import TopAppBar from './AppBar';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,22 +26,12 @@ function App() {
   return (
     <>
       <div>
-        {/*Tabs Divider*/}
-        <ColorTabs />
+        {/*App Bar*/}
+        <TopAppBar/>
 
-        {/*Buttons Divider*/}
+        {/*Form Divider*/}
 
 
-        {/*<Button 
-          variant="contained" 
-          disableElevation 
-          sx={{
-            bgcolor:'primary.main',
-            "&:hover": {bgcolor: deepOrange[400]}
-          }}
-        >
-        Hello world
-        </Button>*/}
       </div>
     </>
   )

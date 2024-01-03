@@ -1,26 +1,13 @@
 /***************************************
 * Created by: Misty Dela Cruz
 * Created on: 12/22/2023
-* Last Modified: 12/22/2023
+* Last Modified: 1/2/2024
 * Updates:
 * Styling the Navigation Bar and other features of the Support Page.
 ***************************************/
 
-.container {
-  display: flex;
-  background-color: rgb(216, 142, 199);
-}
-
-.test {
-  display: flex;
-  align-items: center;
-  background-color: beige;
-}
-
-.tabcontainer {
-display: flex;
-background-color: blue;
-float:left;
+.form {
+  background-color: aquamarine;
 }
 
 /***************************************
