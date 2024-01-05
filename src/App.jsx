@@ -8,30 +8,25 @@
 ***************************************/
 
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import * as React from 'react';
-import Button from '@mui/material/Button';
 import './theme'
-import { deepOrange, deepPurple } from '@mui/material/colors';
-import './AppBar'
-import { Tab } from '@mui/material';
-import DrawerAppBar from './AppBar';
-import TopAppBar from './AppBar';
+import './Form'
+import './TopAppBar'
+import Form from './Form';
+import TopAppBar from './TopAppBar';
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
         {/*App Bar*/}
-        <TopAppBar/>
+        <TopAppBar/>    {/*Displays the Navigation Bar*/}
 
-        {/*Form Divider*/}
-
-
+        {/*Form*/}
+        <Form />        {/*Displays the Form*/}
       </div>
     </>
   )
