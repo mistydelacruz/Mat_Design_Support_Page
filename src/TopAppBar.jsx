@@ -5,10 +5,6 @@
 * Updates:
 * Deleted unnecessary imports
 * Adding comments for calrity
-* Added all components of the page:
-  - Navigation Bar
-  - Form
-  - Footer
 ***************************************/
 
 import * as React from 'react';

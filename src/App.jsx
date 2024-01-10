@@ -3,9 +3,10 @@
 * Created on: 12/22/2023
 * Last Modified: 1/9/2024
 * Updates:
-* App Bar is done.
-* Form is done.
-* Footer is done.
+* Added all components of the page:
+  - Navigation Bar
+  - Form
+  - Footer
 ***************************************/
 
 import './App.css'
