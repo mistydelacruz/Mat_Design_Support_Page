@@ -1,13 +1,13 @@
 /***************************************
 * Created by: Misty Dela Cruz
 * Created on: 12/22/2023
-* Last Modified: 1/2/2024
+* Last Modified: 1/9/2024
 * Updates:
-* App Bar is done
-* Will continue to create the Form and its features
+* App Bar is done.
+* Form is done.
+* Footer is done.
 ***************************************/
 
-import { useState } from 'react'
 import './App.css'
 import * as React from 'react';
 import './theme'
@@ -22,11 +22,17 @@ function App() {
   return (
     <>
       <div>
-        {/*App Bar*/}
+        {/* App Bar */}
         <TopAppBar/>    {/*Displays the Navigation Bar*/}
 
-        {/*Form*/}
+        {/* Form */}
         <Form />        {/*Displays the Form*/}
+
+        {/* Footer */}
+        <div className="gap"></div>
+        <footer className="footer">
+          <p>Copyright 2024 Intel. All rights reserved.</p>
+        </footer>
       </div>
     </>
   )

@@ -1,15 +1,15 @@
 /***************************************
 * Created by: Misty Dela Cruz
 * Created on: 1/2/2024
-* Last Modified: 1/5/2024
+* Last Modified: 1/9/2024
 * Updates:
 * Working on the Form and its features.
 * Added the headings.
 * Added the text fields.
-* Will add the message text area.
+* Added the message text field.
 ***************************************/
 
-import { Box, FormControl, InputLabel, MenuItem, OutlinedInput, Select, TextField, Typography } from '@mui/material';
+import { Box, FormControl, MenuItem, Select, TextField, Typography } from '@mui/material';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -55,9 +55,9 @@ function Form() {
                         >
                         Please select an issue
                         </MenuItem>
-                        <MenuItem value={20}>Connection Issue</MenuItem>
+                        <MenuItem value={20}>Connection Issue</MenuItem>   {/* The different issues the user can choose */}
                         <MenuItem value={30}>Hardware Issue</MenuItem>
-                        <MenuItem value={40}>Subscription Issue</MenuItem>
+                        <MenuItem value={40}>Software Issue</MenuItem>
                     </Select>
                 </FormControl>
 
@@ -74,16 +74,23 @@ function Form() {
                     <TextField required
                     defaultValue={"johndoe@xyztech.com"}/>                 {/* User enters their email adress in the text field */}
                 </FormControl>
-            </CardContent>
             
+            {/***** MESSAGE TEXT FIELD *****/}
+            <FormControl className="message">                               {/* Components for the form are placed within the FormControl */}
+                    <label>Message 0/200</label>                            {/* Label for the text field */}
+                    <TextField required
+                    defaultValue={"Type your message here..."}/>            {/* User enters any comments or message in the text field */}
+                </FormControl>
+            </CardContent>
+
             {/***** SUBMIT BUTTON *****/}
-            <CardActions>
+            <CardActions>                                                   {/* Any buttons or interaction for the card goes in CardActions */}
                 <Button size="small" sx={{color: 'white', 
                 bgcolor: 'primary.dark', 
                 margin: 'auto', 
                 fontSize: 20,
                 "&:hover": {bgcolor: '#64b5f6'}}}
-                >
+                >                                                           {/* The submit button */}
                 SUBMIT
                 </Button>
             </CardActions>

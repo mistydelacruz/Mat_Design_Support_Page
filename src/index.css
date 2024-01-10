@@ -1,13 +1,14 @@
 /***************************************
 * Created by: Misty Dela Cruz
 * Created on: 12/22/2023
-* Last Modified: 1/4/2024
+* Last Modified: 1/9/2024
 * Updates:
 * Styling the Body of the webpage
 ***************************************/
 
 body {
   background-color: #0068B5;
+  margin: 0px;
 }
 
 
