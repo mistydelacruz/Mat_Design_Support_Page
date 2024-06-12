@@ -11,8 +11,8 @@ This project involves using the Material Design UI and creating a barebones supp
 
 Please see the following images of the working support page:
 
-![Mat_Design_Landing_Page](https://github.com/mistydelacruz/Mat_Design_Support_Page/assets/153684965/a68673eb-40fd-45e9-af15-c66991749092)
+![Mat_Design_Landing_Page](https://github.com/mistydelacruz/Mat_Design_Support_Page/assets/153684965/eada54fa-1c1a-49fd-8292-2ca0c10b1160)
 
-![Mat_Design_Issue_Selection](https://github.com/mistydelacruz/Mat_Design_Support_Page/assets/153684965/4859bdcb-e26c-4489-9b58-e0d40f47d444)
+![Mat_Design_Issue_Selection](https://github.com/mistydelacruz/Mat_Design_Support_Page/assets/153684965/9489d41d-360e-4cc7-833c-255809f65fe0)
 
-![Mat_Design_Message_Box](https://github.com/mistydelacruz/Mat_Design_Support_Page/assets/153684965/097592c2-7ebf-49f0-a3e4-574da051c382)
+![Mat_Design_Message_Box](https://github.com/mistydelacruz/Mat_Design_Support_Page/assets/153684965/aae04b1d-8523-48b7-9691-231478fbee7a)
