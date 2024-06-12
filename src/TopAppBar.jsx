@@ -1,10 +1,10 @@
 /***************************************
  * Created by: Misty Dela Cruz
  * Created on: 12/22/2023
- * Last Modified: 1/9/2024
+ * Last Modified: 6/12/2024
  * Updates:
  * Deleted unnecessary imports
- * Adding comments for calrity
+ * Added comments for calrity
  ***************************************/
 
 import * as React from "react";
@@ -16,6 +16,11 @@ import Button from "@mui/material/Button";
 import { Avatar, Card } from "@mui/material";
 import img1 from "./assets/intel.jpg";
 
+{
+  /***************************************
+   *           LIST OF NAV ITEMS         *
+   ***************************************/
+}
 const navItems = [
   "Home",
   "Products",
@@ -25,14 +30,22 @@ const navItems = [
   <Avatar />,
 ];
 
+{
+  /***************************************
+   *           APP BAR COMPONENT         *
+   * This app bar contains elements like:
+    - The Intel logo
+    - Navigation items
+   ***************************************/
+}
 function TopAppBar() {
   return (
     <>
+      {/***************************************
+       *             NAVIGATION BAR           *
+       ***************************************/}
       <Box sx={{ display: "flex" }}>
         <AppBar component="nav">
-          {/***************************************
-           *             NAVIGATION BAR           *
-           ***************************************/}
           <Toolbar className="toolbar" sx={{ backgroundColor: "white" }}>
             <Typography
               variant="h6"
@@ -48,7 +61,9 @@ function TopAppBar() {
               </div>
             </Typography>
 
-            {/***** NAV ITEMS *****/}
+            {/***************************************
+             *            NAVIGATION ITEMS          *
+             ***************************************/}
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               {navItems.map((item) => (
                 <Button

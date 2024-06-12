@@ -1,7 +1,7 @@
 /***************************************
 * Created by: Misty Dela Cruz
 * Created on: 12/22/2023
-* Last Modified: 1/9/2024
+* Last Modified: 6/12/2024
 * Updates:
 * Added all components of the page:
   - Navigation Bar
@@ -21,13 +21,13 @@ function App() {
   return (
     <>
       <div>
-        {/* App Bar */}
+        {/***** App Bar *****/}
         <TopAppBar />
 
-        {/* Form */}
+        {/***** Form *****/}
         <Form />
 
-        {/* Footer */}
+        {/***** Footer *****/}
         <div className="gap"></div>
         <footer className="footer">
           <p>Copyright 2024 Intel. All rights reserved.</p>

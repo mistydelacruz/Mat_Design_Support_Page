@@ -1,12 +1,12 @@
 /***************************************
  * Created by: Misty Dela Cruz
  * Created on: 1/2/2024
- * Last Modified: 1/9/2024
+ * Last Modified: 6/12/2024
  * Updates:
- * Working on the Form and its features.
- * Added the headings.
- * Added the text fields.
- * Added the message text field.
+ * Working on the Form and its features
+  - Added the headings
+  - Added the text fields
+  - Added the message text field
  ***************************************/
 
 import {
@@ -22,6 +22,15 @@ import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 
+{
+  /***************************************
+   *             FORM COMPONENT          *
+   * This form contains elements like:
+    - A dropdown
+    - Text fields
+    - Message boxes
+   ***************************************/
+}
 function Form() {
   return (
     <>
